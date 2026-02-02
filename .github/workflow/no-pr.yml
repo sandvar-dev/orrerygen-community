@@ -1,0 +1,19 @@
+name: No PRs Allowed
+
+on:
+  pull_request:
+    types: [opened, reopened]
+
+jobs:
+  close_pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close Pull Request
+        uses: superbrothers/close-pull-request@v3
+        with:
+          comment: |
+            ### 🛑 Contributions Restricted
+            Thank you for your interest! However, this repository is for **Documentation & Tracking only**.
+            
+            The core engine of Orrerygen is proprietary. We cannot accept code changes here.
+            If you found a bug, please open an **Issue** instead.
