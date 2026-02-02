@@ -1,0 +1,23 @@
+name: 💡 Feature Request
+description: Suggest an idea for a new Agent or App feature
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: input
+    id: agent_name
+    attributes:
+      label: Proposed Agent Name
+      placeholder: e.g., "Instagram Comment Reply Bot"
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: A clear description of what you want to achieve.
+      placeholder: "I spend 2 hours a day manually replying to comments..."
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Suggested Solution
+      description: How should the agent work? Inputs/Outputs?
