@@ -13,11 +13,11 @@ Since the Orrerygen Engine is proprietary software, we use this public repositor
 
 ### 🚀 Quick Links
 * **Download App:** [https://sandvar.com/download](https://orrerygen.sandvar.com/download)
-* **Orrerygen:** [https://sandvar.com/store](https://orrerygen.sandvar.com)
+* **Orrerygen:** [Home Page](https://orrerygen.sandvar.com)
+* **Orrerygen Peedika:** [Peedika](https://orrerygen.sandvar.com/peedika)
 
 ### 🗺️ Public Roadmap
-See what we are building next on our [Projects Board](../../projects).
-* [x] **v1.0:** Windows Desktop App & Local Docker Support
+* [x] **v1.0:** Desktop App & Local Docker Support
 
 ---
 ### ⚖️ License Note
